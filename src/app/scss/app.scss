@@ -1,0 +1,19 @@
+//bootstrap framework
+@import "~bootstrap/scss/bootstrap.scss";
+
+body, html {
+  font-family: 'Source Code Pro', monospace;
+  background: #328c73;
+}
+
+.btn.btn-primary {
+  background: #315837;
+  border: 0;
+  padding: 1em 2em;
+  font-size: 1.5em;
+  text-transform: uppercase;
+
+  &:hover {
+    background: #203823;
+  }
+}
